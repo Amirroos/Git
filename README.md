@@ -1,5 +1,6 @@
 # GIT :computer:
 
+## GITHUB: go to https://github.com/
 <!-- about git word -->
 <h2 align="center"> :warning: Idioms :warning: </h2>
 
@@ -93,3 +94,27 @@ $git commit -m "commit massage"
   ```
 <h5>gitignore.log</h5>
 It is used to tell Git which files or folders to ignore in a project. 
+
+## stash 
+<h4>HOW TO USE GIT STASH: </h4>
+
+```sh
+$ git add file
+$ git stsh
+$ git stash show
+  ```
+<h4>HOW TO BACK FROM STASH:</h4>
+
+```sh
+$ git stash pob stash@\{1,2,3...}
+  ```
+<h5>files that's not in stagig:</h5>
+
+```sh
+$ git stash -u
+  ```
+<h5>gitignore file:</h5>
+
+```sh
+$ git stash -a
+  ```
