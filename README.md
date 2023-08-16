@@ -82,7 +82,20 @@ commit massage: Description for changes
 $ git diff
   ```
 can see changes each part.
-
+## log
+shows the commit history and details about each commit in a Git repository.
+ ```sh
+See commit history for the current branch:
+$ git log
+ ```
+  ```sh
+Include summary diffstats for each commit:
+$ git log --stat
+  ```
+```sh
+Format output to one line per commit:
+$ git log --oneline 
+  ```
 ## ignore 
 <h4>HOW TO USE GIT IGNORE: </h4>
 
@@ -119,3 +132,4 @@ $ git stash -u
 ```sh
 $ git stash -a
   ```
+
