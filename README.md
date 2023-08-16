@@ -96,6 +96,15 @@ $ git log --stat
 Format output to one line per commit:
 $ git log --oneline 
   ```
+## blame
+<h4>HOW TO USE GIT BLAME:</h4>
+
+ ```sh
+$ git blame (name file)
+  ```
+<h5>git blame:</h5>
+used to show who last modified each line of a file and the commit
+
 ## ignore 
 <h4>HOW TO USE GIT IGNORE: </h4>
 
