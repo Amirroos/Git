@@ -19,15 +19,77 @@
 |head|It is called the last commit|
 |origin| server that a local repository was originally cloned from.|
 
+git clone :It is used to create a copy of an existing Git repository from a site or someone or...
+ ```sh
+$ git clone --branch=master 
+or
+$ git clone --branch=master --dept
+or
+$ git clone https://for example 
+  ```
+
 ## REPOSITORY
-<h4>HOW MAKE REPOSITORY:</h4>
+<h4>HOW MAKE REPOSITORY raised_hands :</h4>
  
   ```sh
 $ mkdir amir
 $ cd amir
   ```
 (amir is example)<br>
+
+
 Convert the file to git:
   ```sh
 $ git init
   ```
+## CONFIGURATION
+<h4> HOW TO SET CONFIGURATION :raised_hands: : </h4>
+<h5>username:</h5>
+
+  ```sh
+$ git comfig --global user.name "example"
+  ```
+
+<h5>email:</h5>
+  
+  ```sh
+$ git comfig --global user.email "example@gmail.com"
+  ```
+## status
+<h5>There are three modes for the file</h5>
+
+| untracked | unmodified | modified |
+|---|---|---|
+
+<h5>git status:</h5>
+shows the state of the working directory and staging area.
+
+## save 
+<h4>HOW TO SAVE CIMMIT:</h4>
+ 
+  ```sh
+$ git add main.txt
+$ git commit -m "commit massage"
+  ```
+commit massage: Description for changes 
+
+## diff
+<h4>HOW TO USE DIFF:</h4>
+
+  ```sh
+$ git diff
+  ```
+can see changes each part.
+
+## ignore 
+<h4>HOW TO USE GIT IGNORE: </h4>
+
+  ```sh
+$ touch gitignore.log
+$ nano gitignore.log
+write *.log
+$git add gitignore.log
+$git commit -m "commit massage"
+  ```
+<h5>gitignore.log</h5>
+It is used to tell Git which files or folders to ignore in a project. 
