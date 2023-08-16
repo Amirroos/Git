@@ -1,6 +1,7 @@
 # GIT :computer:
 
-## GITHUB: go to https://github.com/
+## GITHUB: go to github [form chrome](https://github.com/) / [form firefox](https://github.com/)
+
 <!-- about git word -->
 <h2 align="center"> :warning: Idioms :warning: </h2>
 
