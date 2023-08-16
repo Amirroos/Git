@@ -57,6 +57,15 @@ $ git comfig --global user.name "example"
   ```sh
 $ git comfig --global user.email "example@gmail.com"
   ```
+## TAG
+<h4> HOW TO USE GIT TAG : </h4>
+
+ ```sh
+$ git tag "example v1 s2"
+  ```
+<h5>git tag:</h5>
+is used to create and manage tags or version labels for commits.
+
 ## status
 <h5>There are three modes for the file</h5>
 
