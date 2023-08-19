@@ -1,7 +1,7 @@
 # GIT :computer:
+<img src="https://initialcommit.com/img/initialcommit/baby-git-release.png">
 
 ## GITHUB: go to github [form chrome](https://github.com/) 
-
 <!-- about git word -->
 <h2 align="center"> :warning: Idioms :warning: </h2>
 
